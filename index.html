@@ -5,19 +5,30 @@
 <title>水母发光 · 配音版</title>
 <style>
   body{margin:0;background:#080d14;color:#e6edf3;font:16px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
-       min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;box-sizing:border-box}
-  h1{font-size:20px;font-weight:600;letter-spacing:.5px;margin:0 0 16px}
-  video{width:min(96vw,960px);aspect-ratio:16/9;background:#000;border-radius:10px;box-shadow:0 12px 40px rgba(0,0,0,.6)}
-  .links{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
-  a{color:#7cc4ff;text-decoration:none;border:1px solid #24405a;padding:8px 14px;border-radius:8px;font-size:14px}
+       min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:28px 20px;box-sizing:border-box}
+  h1{font-size:20px;font-weight:600;letter-spacing:.5px;margin:0 0 4px}
+  p.meta{color:#7d8b9a;font-size:13px;margin:6px 0 24px;text-align:center}
+  .card{width:min(96vw,940px);margin-bottom:28px}
+  h2{font-size:15px;font-weight:600;color:#9fd0ff;margin:0 0 10px;letter-spacing:.4px}
+  video{width:100%;aspect-ratio:16/9;background:#000;border-radius:10px;box-shadow:0 12px 40px rgba(0,0,0,.6);display:block}
+  .links{margin-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+  a{color:#7cc4ff;text-decoration:none;border:1px solid #24405a;padding:7px 13px;border-radius:8px;font-size:13px}
   a:hover{background:#12202e}
-  p.meta{color:#7d8b9a;font-size:13px;margin-top:14px;text-align:center}
 </style>
 <h1>水母发光 · 配音版</h1>
-<video src="jellyfish/shuimu-faguang-peiyin.mp4" controls playsinline preload="metadata"></video>
-<div class="links">
-  <a href="jellyfish/shuimu-faguang-peiyin.mp4" download>下载原片（8.4 MB）</a>
-  <a href="jellyfish/timeline.jpg">时间轴对照图</a>
+<p class="meta">1280×720 · 30fps · 61.0s · H.264/AAC · 画面与原片码流完全一致</p>
+
+<div class="card">
+  <h2>男声版（云健 · 纪录片音色）</h2>
+  <video src="jellyfish/shuimu-faguang-peiyin.mp4" controls playsinline preload="none"></video>
+  <div class="links"><a href="jellyfish/shuimu-faguang-peiyin.mp4" download>下载（8.4 MB）</a></div>
 </div>
-<p class="meta">1280×720 · 30fps · 61.0s · H.264/AAC · 画面与原片完全一致</p>
+
+<div class="card">
+  <h2>女声版（晓晓 · 科普解说音色）</h2>
+  <video src="jellyfish/shuimu-faguang-peiyin-female.mp4" controls playsinline preload="none"></video>
+  <div class="links"><a href="jellyfish/shuimu-faguang-peiyin-female.mp4" download>下载（8.4 MB）</a></div>
+</div>
+
+<div class="links"><a href="jellyfish/timeline.jpg">配音时间轴对照图</a></div>
 </html>
