@@ -30,7 +30,7 @@ https://uskyu.github.io/media-share/
 规格：1920×1080 / 24fps / 15.0s / H.264 yuv420p bt709 + AAC 192k。
 画面全部由单个 HTML 的 Canvas2D `renderFrame(t)` 逐帧绘制（无任何图像/视频生成模型），线条抖动按 8fps boil 重绘，模拟手绘。
 
-- MD5：`050a79ce0f2932e960d57dd265f4f9f8`
+- MD5：`a3575d2773b9e8f1eac967f585953dab`
 - Release 资源（永久）：https://github.com/uskyu/media-share/releases/download/tuantuan-v1/tuantuan-fannao-15s.mp4
 - 仓库原始文件：https://raw.githubusercontent.com/uskyu/media-share/main/tuantuan/tuantuan-fannao-15s.mp4
 - jsDelivr CDN：https://cdn.jsdelivr.net/gh/uskyu/media-share@main/tuantuan/tuantuan-fannao-15s.mp4
